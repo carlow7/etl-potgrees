@@ -62,9 +62,9 @@ etl = ConectaBanco(
     mongo_uri="mongodb://localhost:27017/",
     mongo_db="estoque",
     pg_uri= "localhost",
-    pg_db_name="test",
-    pg_user="meu_user",
-    pg_password="123456"
+    pg_db_name="",
+    pg_user="",
+    pg_password=""
 )
 
 etl.run(colletion_name="estoque" , table_name="lista1")
